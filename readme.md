@@ -1,4 +1,4 @@
-# Adding swipe support to Magnific Popup galleries. 
+# Adding animated swipe support to Magnific Popup galleries. 
 
 *from https://gist.github.com/justMoritz/229aaf402aa19a467caa0377f423e531* *(I can't seem to figure out how to import it properly, so here it is manually ... )*
 
