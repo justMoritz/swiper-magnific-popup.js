@@ -1,13 +1,13 @@
 (function() {
-  /* Define a variável que dá swipe no lightbox */
+  /* Sets a variable that swipe in lightbox */
   var magnificPopup = $.magnificPopup.instance;
 
-  /* Carrega a função quando clica no lightbox (senão não pega a classe utilizada) */
-  $("SAME-SELECTOR-AS-YOUR-GALLERY-OPENER").click(function(e) {
+  /* Loads the function when clicking the lightbox. This is the same selector as your Lightbox / Gallery opener. */
+  $("SAME-SELECTOR-AS-YOUR-LIGHTBOX-GALLERY-OPENER").click(function(e) {
 
-     /* Espera carregar o lightbox */
+     /* Expect to load lightbox */
       setTimeout(function() {
-          /* Right Swipe With Animation */
+          /* Right Swipe With Animation (listens to swipe event from touchSwipe) */
           $(".mfp-container").swipe( {
             swipeLeft:function(event, direction, distance, duration, fingerCount) {
               console.log("swipe right");
